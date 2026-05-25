@@ -13,7 +13,6 @@ public:
     bool alive;
 
     Block(float x, float y, int t);
-    void onHit(Ball& ball, int& score);
 };
 
 #endif
