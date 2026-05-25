@@ -12,7 +12,3 @@ Block::Block(float x, float y, int t)
     else if (t == 3) shape.setFillColor(sf::Color::Yellow);
     else shape.setFillColor(sf::Color(199, 21, 133));
 }
-
-void Block::onHit(Ball& ball, int& score)
-{
-}
