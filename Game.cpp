@@ -188,14 +188,6 @@ void Game::update()
 
                     score++;
 
-                    if (block.type == 4)
-                    {
-                        if (block.hp == 2)
-                            block.shape.setFillColor(sf::Color(255, 100, 255));
-                        else if (block.hp == 1)
-                            block.shape.setFillColor(sf::Color(150, 50, 150));
-                    }
-
                     if (block.type == 3)
                         b.vel *= 1.05f;
 
