@@ -30,7 +30,7 @@ Game::Game() : window(sf::VideoMode(900, 600), "Arkanoid")
 {
     window.setFramerateLimit(60);
 
-    font.loadFromFile("C:/Users/Пользователь/source/repos/Arkanoid/x64/Debug/LCD5x8HRU.ttf");
+    font.loadFromFile("LCD5x8HRU.ttf");
 
     infoText.setFont(font);
     infoText.setCharacterSize(24);
