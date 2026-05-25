@@ -12,13 +12,3 @@ void Ball::update()
 {
     shape.move(vel);
 }
-
-void Ball::bounceX()
-{
-    vel.x = -vel.x;
-}
-
-void Ball::bounceY()
-{
-    vel.y = -vel.y;
-}
