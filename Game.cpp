@@ -140,6 +140,8 @@ void Game::update()
             lives--;
             score--;
 
+            paddle.setSize(100.f);
+
             if (lives <= 0)
             {
                 window.close();
