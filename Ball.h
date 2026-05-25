@@ -11,8 +11,6 @@ public:
 
     Ball(float x, float y);
     void update();
-    void bounceX();
-    void bounceY();
 };
 
 #endif
